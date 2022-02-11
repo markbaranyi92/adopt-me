@@ -1,10 +1,10 @@
-//import React from "react";
 import ReactDOM from "react-dom";
 //prettier - require config
 //eslint - npm run lint
 //parcel - run/bundle - npm run dev
 
 import Pet from "./Pet";
+import SearchParams from "./SearchParams";
 
 const App = () => {
   return (
@@ -13,6 +13,7 @@ const App = () => {
       <Pet name="Luna" animal="Dog" breed="Havanese" />
       <Pet name="Pepper" animal="Birdog" breed="Cockatiel" />
       <Pet name="Sudo" animal="Dog" breed="Wheaten Terrier" />
+      <SearchParams />
     </div>
   );
 };
